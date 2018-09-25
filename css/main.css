@@ -141,7 +141,7 @@ body, html {
 	}
 	
 	h3 {
-		font-size: 24px;
+		font-size: 20px;
 		text-transform: uppercase;
 	}
 	
@@ -190,6 +190,9 @@ body, html {
 	.newsletter .btn {
 		color: #eeeeee;
 		background: #ff1256;
+		display: block;
+		
+		margin-right: 20px;
 	}
 	
 	 .sidebar-write .btn {
@@ -206,6 +209,7 @@ body, html {
 	}
 	
 	.text-input {
+		display: block;
 		border-style: solid;
 		border-color: #acacac;
 		border-width: 1px;
@@ -689,8 +693,12 @@ footer {
 	/***Top Story***/
 	
 		.top-story {
-			width: 55%;
+			width: 60%;
 			float: left;
+			padding-top: 30px;
+			padding-right: 20px;
+			padding-bottom: 30px;
+			clear: left;
 }
 	
 			.top-img {
@@ -708,6 +716,11 @@ footer {
 }
 	/***Sidebar***/
 	
+	aside {
+		padding-right: 80px;
+		width: 26%;
+	}
+	
 	.detail {
 		width: 35%;
 		float: right;
@@ -720,6 +733,14 @@ footer {
 		.detail .newsletter	input {
 				width: 100%;
 		}
+		
+		.newsletter .text-input {
+		width: 100%;
+	}
+	
+	.newsletter .btn {
+		width: 100%;
+	}
 		
 			.detail h2 {
 			width: 100%; 
